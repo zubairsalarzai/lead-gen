@@ -1,0 +1,68 @@
+.signIn{
+    display: flex;
+    justify-content: center;
+    /* border: 3px solid #35a665; */
+    border-radius: 5px;
+    min-height: 100vh;
+
+
+}
+/* login css */
+.signIn1{
+    padding: 2%;
+    flex: 75%;
+    
+}
+.loginContent{
+    text-align: center;
+    position: relative;
+    top: 20%;
+}
+.loninContent i{
+    margin-right: 2%;
+}
+.inputfield div{
+    margin-bottom: 1%;
+}
+
+
+
+.signIn2{
+    padding: 6%;
+    flex: 25%;
+    background-color: var(--btn-color);
+    text-align: center;
+    
+}
+.signIn2text{
+    position: relative;
+    top: 20%;
+}
+.signIn2text .btn-primary{
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: small;
+    background-color:var(--btn-color);
+    border: 1px solid white;
+}
+.signIn1button .btn-primary{
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: small;
+    background-color:var(--btn-color);
+    border: 1px solid white;
+}
+.signIn2text p{
+    color: white;
+   }
+.signIn2text h2{
+       color: white;
+   }
+.loginContent h2 {
+      color: var(--btn-color);
+      font-weight: bold;
+   }
+.loginContent i{
+    color: var(--btn-color);
+
+}

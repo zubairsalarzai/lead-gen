@@ -1,0 +1,241 @@
+.home .image {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../../assets/map.jpg");
+  height: 600px;
+}
+
+.home .container {
+  height: 100%;
+}
+
+.home .text-holder {
+  width: 50%;
+  justify-content: center;
+  padding-left: 15%;
+}
+
+.home .text-holder h1 {
+  font-size: 4.3em;
+  color: var(--theme-color);
+}
+
+.home .text-holder h4 {
+  color: var(--theme-purple);
+  font-weight: normal;
+  font-size: 2.4em;
+}
+
+.home .text-holder button {
+  background-color: var(--theme-color);
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  width: 160px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 35px;
+}
+
+.home .text-holder a {
+  color: white;
+  text-decoration: none;
+}
+
+.home .btn:hover {
+  background-color: var(--theme-purple);
+  color: white;
+}
+
+.home .hero-button-list .btn:hover {
+  background-color: var(--theme-purple);
+  color: white;
+}
+
+.home .image-holder {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home .hero-button-list {
+  display: flex;
+  justify-content: center;
+  padding-top: 65px;
+}
+
+.home .hero-button-list .btn {
+  margin-right: 25px;
+  background-color: var(--theme-color);
+  border: none;
+  color: white;
+  padding: 4px 12px;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home .hero-button-list a {
+  color: white;
+  text-decoration: none;
+}
+
+.home .row {
+  margin-right: 0px !important;
+}
+
+.home .main-section {
+  margin-top: 100px;
+}
+
+.home .section {
+  margin-bottom: 50px;
+}
+
+.home .section img {
+  width: 600px;
+  height: 600px;
+}
+
+.home .section li {
+  font-size: 1.2em;
+}
+
+.home .section a {
+  background-color: var(--theme-color);
+  color: white;
+}
+
+.home .section .left-box {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .section .right-box {
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home .section-b .right-box {
+  padding-right: 100px;
+}
+
+.home .mid-section {
+  height: 750px;
+  background-color: var(--theme-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .about-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.home .about-us img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+.home .about-us h1 {
+  color: var(--theme-color);
+  margin-bottom: 30px;
+}
+
+.home .about-us p {
+  text-align: center;
+}
+
+.home .main-footer {
+  background-color: var(--footer-color);
+}
+
+.home .main-footer i {
+  color: var(--theme-color) !important;
+}
+
+.home .footer-bottom {
+  background-color: var(--footer-bottom);
+}
+
+/*Cards Css*/
+
+.home .card {
+  background: var(--card-background);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0home 4);
+  border-radius: 5px;
+  margin: 0px 30px 0px 30px;
+  width: 450px;
+  padding: 20px;
+  text-align: center;
+  color: #212529;
+}
+
+.home .mid-card {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+}
+
+.home .card img {
+  width: 100px;
+  height: 100px;
+}
+
+.home .title {
+  font-size: 25px;
+}
+.home .icon {
+  margin: 50px 0;
+}
+
+.home .features ul {
+  padding: 0;
+  margin: 20px 0 50px 0;
+  list-style-type: none;
+}
+
+.home .features li {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.home .features span {
+  border-bottom: 2px dotted var(--btn-color);
+}
+
+.home .section3-btn {
+  display: block;
+  background: var(--btn-color);
+  color: white;
+  padding: 15px 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.9);
+  transition: all 200ms ease-in-out;
+  text-decoration: none;
+}
+.home .section3-btn:hover {
+  background: var(--theme-purple);
+  color: white;
+}

@@ -1,0 +1,17 @@
+:root {
+    --theme-color: #6B6B6B;
+    --theme-purple: #34325E;
+    --footer-color: #252525;
+    --footer-bottom: #383838;
+    --card-background: #FFFFFF;
+    --btn-color: #35A665;
+  }
+  h1 {
+    font-size: 3.5em;
+  }
+  p {
+    font-size: 1.5em;
+  }
+  li {
+    font-size: 1.2em;
+  }
